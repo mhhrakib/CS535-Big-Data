@@ -1,0 +1,131 @@
+Example 1 (Dataset index: 5238)
+================================================================================
+DOCUMENT:
+Most of the Secret Service agents embroiled in a prostitution scandal brought women back to their Colombia hotel rooms before President Obama arrived in town for an international summit, Rep. Pete King said Saturday. 
+ 
+ King said the raunchy rendezvous involved 11 agents and went sour when an agent refused to pay one of the women, who were presumed to be hookers. 
+ 
+ “The agent said, ‘I don't owe you anything,’ but gave the woman some money,” said King (R-L.I.),the head of the House Homeland Security Committee, who was briefed on the matter. “I don't know how much, and it was settled right there.” 
+ 
+ IN COLOMBIA, THE SEX BUSINESS IS SO BIG THAT SOME CALL IT THE 'THAILAND OF LATIN AMERICA' 
+ 
+ As it turned out, the agents’ troubles were just beginning. Local cops were called to the hotel in Cartagena and, because the matter involved foreigners, a report was written up and sent to the U.S. Embassy, King said. 
+ 
+ Embassy officials in turn notified the Secret Service, which immediately ...
+
+REFERENCE SUMMARY:
+– The Secret Service prostitution scandal that's threatening to overshadow the Summit of the Americas came to light after one agent refused to pay one of the women involved, reports the New York Daily News. “The agent said, ‘I don't owe you anything,’ but gave the woman some money,” says Rep. Peter King, who as head of the House Homeland Security Committee, has been briefed. The agents, part of an advance team that was supposed to secure President Obama's hotel, were caught with prostitutes in their hotel rooms, and the dispute caused a disturbance that got local police involved. “Number one, it is against basic ethics to go to a prostitute. Number two, it is incredibly embarrassing to the White House,” says one insider, who added that the agents' careers are probably over. “Yes, doubly good judgment there.” Eleven agents have been placed on leave in the incident, notes the AP, and another five military personnel have been accused of similar misconduct after violating curfew. None of the Secret Service agents involved were directly responsible for Obama's protection. A Secret Service rep has apologized "for any distraction."
+
+GENERATED SUMMARY:
+Rep. Pete King said the raunchy rendezvous involved 11 agents and went sour when an agent refused to pay one of the women, who were presumed to be hookers. Local cops were called to the hotel in Cartagena and, because the matter involved foreigners, a report was written up and sent to the U.S. Embassy. At least one supervisor was among the agents involved, King said.
+
+================================================================================
+
+Example 2 (Dataset index: 912)
+================================================================================
+DOCUMENT:
+A volunteer for Ben Carson's Republican presidential campaign died Tuesday after a van carrying four staff members flipped over on a patch of ice in Cass County, Iowa, and was rammed by another vehicle, hospital officials confirmed Tuesday night. 
+ 
+ Play Facebook 
+ 
+ Twitter 
+ 
+ Embed Ben Carson volunteer killed when campaign van crashes in Iowa 0:28 autoplay autoplay Copy this code to your website or blog 
+ 
+ Carson immediately suspended his campaign for at least two days to travel from South Carolina to Omaha, Nebraska, where Braden Joplin, 25, was rushed for treatment at the University of Nebraska Medical Center, the campaign said. 
+ 
+ Joplin died at 4:30 p.m. (5:30 p.m. ET), the hospital said. The other passengers — Drew McCall, a field director for the campaign, and volunteers Aaron Ohnemus and Ryan Patrick Shellooe — weren't seriously injured and were released from a local hospital, the campaign said. 
+ 
+ Rest In Peace Braden Joplin. Our thoughts and prayers are with his family....
+
+REFERENCE SUMMARY:
+– A sad day for the Ben Carson campaign: The GOP candidate canceled Tuesday and Wednesday campaign events after the death of a volunteer in a car crash in western Iowa. Braden Joplin, a 25-year-old from Midland, Texas, was fatally injured and three other campaign workers were hurt Tuesday afternoon when their van flipped over on an icy road and was hit by another vehicle, reports NBC News. Joplin was flown to a hospital in Nebraska, while the other three were treated locally and released. Politico reports that Carson, who was in South Carolina at the time, flew to Nebraska when he heard the news and paid for a private jet to bring Joplin's family out from Texas. "One of the precious few joys of campaigning is the privilege of meeting bright young men and women who are so enthusiastic about their country that they will freely give of their time and energy to work on its behalf," Carson said in a statement. "America lost one of those bright young men today. I had the privilege of knowing Braden Joplin personally, and am filled with a deep and profound sadness at his passing." Other candidates, including Ted Cruz and Hillary Clinton, tweeted their condolences, while Bernie Sanders mentioned Joplin at the start of a rally in Iowa City, the AP reports. "I have a lot of respect for any young person who gets involved in the political process," Sanders said. "Our hearts go out to the family of the young man."
+
+GENERATED SUMMARY:
+A volunteer for Ben Carson's Republican presidential campaign died after a van carrying four staff members flipped over on a patch of ice in Cass County, Iowa. Carson immediately suspended his campaign for at least two days to travel from South Carolina to Omaha, Nebraska. The other passengers — Drew McCall, a field director for the campaign, and volunteers Aaron Ohnemus and Ryan Patrick Shellooe — weren't seriously injured.
+
+================================================================================
+
+Example 3 (Dataset index: 204)
+================================================================================
+DOCUMENT:
+Perhaps Google (Alphabet?) should have googled its new name before it decided to restructure the whole company. 
+ 
+ The New York Times reports that Google's new parent company, Alphabet, has encountered an issue with german automaker BMW, which owns a fleet services company with the same name and the domain Alphabet.com. 
+ 
+ A spokesperson for BMW told the Times the company isn't planning on selling its domain and that Alphabet was a large part of its business. 
+ 
+ See also: What Google has to gain by adopting the Alphabet 
+ 
+ With the major restructuring announcement yesterday, Alphabet launched abc.xyz as its domain name. Alphabet, led by Google founders Larry Page and Sergey Brin, is now the parent company of Google, a move designed to separate the core products (search, Gmail, Android, etc.) from its more far reaching projects (Fiber, Calico, X, self-driving cars). 
+ 
+ While the move makes sense for Alphabet, it confused many. 
+ 
+ BMW is looking into whether Google's Alphabet has i...
+
+REFERENCE SUMMARY:
+– Guess Google execs are serious about that whole reorg under the Alphabet parent-company thing. Just days after Alphabet officially became Google's holding company, it scooped up a brand-new domain name: abcdefghijklmnopqrstuvwxyz.com, which has been around since 1999 and was purchased for an unspecified amount, NBC News reports. The page isn't functional as of this post, and a company rep says, "We realized we missed a few letters in abc.xyz, so we're just being thorough." (Google set up that website in August.) It's hard to imagine Google directing the general public to use the site—would you want to type in all those letters every time?—and NBC notes the domain purchase may simply be a preemptive strike to keep others from usurping it for their own use. Two domains the company probably won't be able to get its hands on: ABC.com (for the American Broadcasting Company, owned by Disney) and alphabet.com, which BMW is unlikely to give up, notes Consumerist. If you'd been hoping to nab the domain for yourself, you can always try to cybersquat the site away when Google's hold on it expires in August 2018. (Alphabet has ditched its "Don't Be Evil" motto for one that's not as quirky.)
+
+GENERATED SUMMARY:
+Google's new parent company, Alphabet, has encountered an issue with german automaker BMW. BMW owns a fleet services company with the same name and the domain Alphabet.com. BMW is looking into whether Google's Alphabet has infringed on its trademark.
+
+================================================================================
+
+Example 4 (Dataset index: 2253)
+================================================================================
+DOCUMENT:
+These crawls are part of an effort to archive pages as they are created and archive the pages that they refer to. That way, as the pages that are referenced are changed or taken from the web, a link to the version that was live when the page was written will be preserved.Then the Internet Archive hopes that references to these archived pages will be put in place of a link that would be otherwise be broken, or a companion link to allow people to see what was originally intended by a page's authors.The goal is to fix all broken links on the web . Crawls of supported "No More 404" sites. ||||| 8-year-old Westport boy on trial for exuberance 
+ 
+ facebook photo Jennifer Connell. Connell claims her 8-year-old nephew of Westport, acted unreasonably when he leaped into her arms, causing her to fall on the ground and break her wrist four years ago. The case is in court in Bridgeport, Conn. less facebook photo Jennifer Connell. Connell claims her 8-year-old nephew of Westport, acted unreasonably...
+
+REFERENCE SUMMARY:
+– "If only they could just hug it out," laments the New York Daily News in the case of Connell v. Tarala—Connell being 54-year-old Jennifer Connell, Tarala her 12-year-old nephew Sean, who she claims was so excited at his birthday party four years ago that he broke her wrist, the Connecticut Post reports. The New York City woman, who's suing Sean for $127,000, testified in court Friday that when she arrived at her nephew's birthday party in Westport, Conn., on March 28, 2011, Sean was riding his brand-new bike outside. When he saw Connell, she said, he ran toward her yelling, "Auntie Jen, Auntie Jen!" and then flung his 50-pound body at her, knocking them both to the ground and breaking her wrist. "I remember him shouting, 'Auntie Jen, I love you,' and there he was flying at me," she testified. Connell told the jury she didn't complain about her injury at the time because "it was his birthday party and I didn't want to upset him," but she noted that the broken wrist upended her busy life. "I live in Manhattan in a third-floor walk-up, so it has been very difficult," she said. "And we all know how crowded it is in Manhattan." Not to mention how it affected her in social situations: "I was at a party recently, and it was difficult to hold my hors d'oeuvre plate," she noted. Even though Connell says Sean—who the Post notes listened with his dad to his aunt's testimony looking "confused"; his mom died last year—has always been "very loving" and "sensitive" toward her, she thinks he should still be liable and understand that his actions have consequences. (These parents got an invoice after their son was a no-show at a birthday party.)
+
+GENERATED SUMMARY:
+Jennifer Connell claims her 8-year-old nephew of Westport, acted unreasonably when he leaped into her arms, causing her to fall on the ground and break her wrist four years ago. She is seeking $127,000 from the boy, who she described as always being “very loving, sensitive,” toward her. The boy is the only defendant in the case.
+
+================================================================================
+
+Example 5 (Dataset index: 2006)
+================================================================================
+DOCUMENT:
+My dearest friend and YOUR favorite castaway, Dawn Wells ( Mary Ann from ‘Gillian’s Island’ ) 
+ 
+ needs YOU ! 
+ 
+ 
+ 
+ After 2008, like many of us, Dawn suffered through the banking crash and lost everything including her life savings in addition, to a life -threatening surgery which came close to killing her. 
+ 
+ Dawn was a victim of an unexpected accident that required hospitalization for two months and a very long time to rest and heal 
+ 
+ Dawn needs $194,000 to alleviate penalties by the IRS( which are compounded daily) and to pay her hospital costs 
+ 
+ Dawn is living one of the greatest fears we Americans have, an uncertain future. Should any of you out there wish to contribute a small some to help a woman who gave so many people Joy over the years, it would be so appreciated. God Bless 
+ 
+ 
+ 
+ PLEASE PLEASE HELP ME SAVE OUR AMERICAN ICON- Dawn Wells 
+ 
+ 
+ 
+ Thank you in advance. 
+ 
+ 
+ 
+ Dugg Kirkpatrick 
+ 
+ 
+ 
+ ps 
+ 
+ i had to up the goal because of fees that go fund me has. I did...
+
+REFERENCE SUMMARY:
+– Dawn Wells is not doing so well, according to the friend who launched a GoFundMe crowdfunding campaign for the Gilligan's Island actress. Wells, 79, who played Mary Ann on the show, lost almost everything in the 2008 financial crisis, the friend tells TMZ. This year, while already recovering from a major surgery and complications resulting from it, she broke her knee. She now needs to move to an assisted living facility, but it won't take her because she's nearly $200,000 in debt, the friend says. "Dawn needs $194,000 to alleviate penalties by the IRS (which are compounded daily) and to pay her hospital costs," the GoFundMe campaign says, though it's seeking to raise just $180,000. In a campaign update, the friend quotes Wells as saying, "I just don’t know what happened! I thought I would be just fine, but apparently I’m not. I’ve found myself with no home, husband, or kids. I thank god every day that I have friends and fans who care or this whole thing would be too overwhelming." The campaign asks the public to help "YOUR favorite castaway," noting that she is "a woman who gave so many people Joy over the years." As of this writing, it has raised more than $46,000. People notes that the campaign is run by someone calling himself Dugg Kirkpatrick, and points to a Twitter photo seeming to indicate he is a hairstylist who has worked with Wells.
+
+GENERATED SUMMARY:
+Dawn Wells, 79, is best known for playing Mary Ann Summers on Gilligan’s Island. A man by the name of Dugg Kirkpatrick recently launched a fundraiser with a goal of almost $200,000 to help Wells, 79, pay off medical bills. As of Friday morning, the campaign has raised nearly $120,000 in just 10 days.
+
+================================================================================
+

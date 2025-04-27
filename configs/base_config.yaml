@@ -1,0 +1,27 @@
+data:
+  dataset_name: "alexfabbri/multi_news"
+  sample_ratio: 0.02  # Start with 2% of the data
+  max_input_length: 1024  # Will be adjusted based on model
+  max_output_length: 256  # Will be adjusted based on model
+  batch_size: 4
+  num_workers: 4
+  seed: 42
+
+model:
+  model_name: "facebook/bart-large-cnn"  # Starting with BART
+  learning_rate: 5.0e-5
+  weight_decay: 0.01
+  warmup_steps: 500
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 4
+
+training:
+  output_dir: "outputs/models"
+  num_epochs: 3
+  eval_steps: 500
+  save_steps: 1000
+  logging_steps: 100
+  use_fp16: true
+  distributed: false
+  local_rank: -1
+  world_size: 1

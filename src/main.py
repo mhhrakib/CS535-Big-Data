@@ -24,6 +24,7 @@ def set_seed(seed):
     np.random.seed(seed)
     torch.manual_seed(seed)
     if torch.cuda.is_available():
+        logger.info("Using device cuda")
         torch.cuda.manual_seed_all(seed)
 
 
@@ -52,7 +53,7 @@ def main():
     model, tokenizer = load_model_and_tokenizer(config)
 
     # Get dataloaders
-    train_dataloader, val_dataloader, test_dataloader = get_dataloaders(tokenizer, config)
+    train_dataloader, val_dataloader, test_dataloader = get_dataloaders(config, tokenizer)
 
     # Calculate total steps for scheduler
     total_steps = len(train_dataloader) * config.training.num_epochs // config.model.gradient_accumulation_steps

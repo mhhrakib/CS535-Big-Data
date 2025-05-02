@@ -1,16 +1,12 @@
+import logging
+
+import torch
 from transformers import (
     AutoModelForSeq2SeqLM,
-    AutoTokenizer,
     get_linear_schedule_with_warmup
 )
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.distributed as dist
-from torch.nn.parallel import DistributedDataParallel as DDP
-import logging
-import os
-from typing import Dict, List, Tuple, Any, Optional
+
+from src.utils import get_tokenizer
 
 # Set up logging
 logging.basicConfig(
@@ -63,7 +59,8 @@ def load_model_and_tokenizer(config):
         f"Using max_input_length={config.data.max_input_length}, max_output_length={config.data.max_output_length}")
 
     # Load tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    # tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = get_tokenizer(model_name)
 
     # Load model
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)

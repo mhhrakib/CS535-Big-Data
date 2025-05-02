@@ -3,7 +3,7 @@ data:
   sample_ratio: 0.02  # Start with 2% of the data
   max_input_length: 1024  # Will be adjusted based on model
   max_output_length: 256  # Will be adjusted based on model
-  batch_size: 4
+  batch_size: 16
   num_workers: 4
   seed: 42
 

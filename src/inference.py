@@ -8,6 +8,7 @@ import nltk
 from nltk.tokenize import sent_tokenize
 import random
 from tqdm import tqdm
+from src.utils import clean_text
 
 # Set up logging
 logging.basicConfig(
@@ -19,15 +20,6 @@ logger = logging.getLogger(__name__)
 
 # Download NLTK resources
 nltk.download('punkt', quiet=True)
-
-
-def clean_text(text):
-    """Basic text cleaning"""
-    # Remove multiple spaces
-    text = ' '.join(text.split())
-    # Remove special HTML characters
-    text = text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
-    return text
 
 
 def load_model(model_path):
@@ -88,8 +80,8 @@ def main():
     parser.add_argument("--num_samples", type=int, default=5, help="Number of examples to generate")
     parser.add_argument("--output_file", type=str, default="summaries.txt", help="Output file path")
     parser.add_argument("--max_input_length", type=int, default=1024, help="Maximum input length")
-    parser.add_argument("--max_output_length", type=int, default=256, help="Maximum output length")
-    parser.add_argument("--seed", type=int, default=42, help="Random seed")
+    parser.add_argument("--max_output_length", type=int, default=128, help="Maximum output length")
+    parser.add_argument("--seed", type=int, default=43, help="Random seed")
     args = parser.parse_args()
 
     # Set random seed
@@ -123,6 +115,8 @@ def main():
             device=device
         )
 
+        # logger.info(f"ref sum len: {len(example["summary"])}, gen sum len: {len(generated_summary)}")
+
         # Store results
         results.append({
             "index": idx,
@@ -143,6 +137,7 @@ def main():
             f.write("GENERATED SUMMARY:\n")
             f.write(result['generated_summary'] + "\n\n")
             f.write("=" * 80 + "\n\n")
+            f.write("ref sum len: " + str(len(result['reference_summary'])) + " gen sum len: " + str(len(result['generated_summary'])) + "\n\n")
 
     logger.info(f"Generated summaries saved to {args.output_file}")
 

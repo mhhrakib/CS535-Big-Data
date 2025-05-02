@@ -1,131 +1,111 @@
-Example 1 (Dataset index: 5238)
+Example 1 (Dataset index: 315)
 ================================================================================
 DOCUMENT:
-Most of the Secret Service agents embroiled in a prostitution scandal brought women back to their Colombia hotel rooms before President Obama arrived in town for an international summit, Rep. Pete King said Saturday. 
+CHRISTCHURCH, New Zealand | 
  
- King said the raunchy rendezvous involved 11 agents and went sour when an agent refused to pay one of the women, who were presumed to be hookers. 
+ CHRISTCHURCH, New Zealand (Reuters) - U.S. Secretary of State Hillary Clinton ruled out running for president in 2012 or 2016 on Friday, saying the United States should be ready for a woman president but it would not be her. 
  
- “The agent said, ‘I don't owe you anything,’ but gave the woman some money,” said King (R-L.I.),the head of the House Homeland Security Committee, who was briefed on the matter. “I don't know how much, and it was settled right there.” 
+ In interviews in New Zealand, the failed 2008 presidential candidate made clear she had no plans to run again despite talk -- fueled partly by her fellow Democrats' losses in Tuesday's U.S. mid-term elections -- she might embark on a new race. 
  
- IN COLOMBIA, THE SEX BUSINESS IS SO BIG THAT SOME CALL IT THE 'THAILAND OF LATIN AMERICA' 
+ Asked by TV3 New Zealand whether she ruled out standing for the top U.S. office through 2016, Clinton, according to a U.S. reporter, replied: "Oh yes, yes. I'm very pleased to be doing what I'm doing as secretary of state." 
  
- As it turned out, the agents’ troubles were just beginning. Local cops were called to the hotel in Cartagena and, because the matter involved foreigners, a report was written up and sent to the U.S. Embassy, King said. 
+ In a separate interview with TV New Zealand, Clinton said she hoped the United States was ready for a female president, adding "it should be." 
  
- Embassy officials in turn notified the Secret Service, which immediately ...
+ Asked if it might be her, she replied: "Well, not me. But it will be someone and it is nice coming to countries that...
 
 REFERENCE SUMMARY:
-– The Secret Service prostitution scandal that's threatening to overshadow the Summit of the Americas came to light after one agent refused to pay one of the women involved, reports the New York Daily News. “The agent said, ‘I don't owe you anything,’ but gave the woman some money,” says Rep. Peter King, who as head of the House Homeland Security Committee, has been briefed. The agents, part of an advance team that was supposed to secure President Obama's hotel, were caught with prostitutes in their hotel rooms, and the dispute caused a disturbance that got local police involved. “Number one, it is against basic ethics to go to a prostitute. Number two, it is incredibly embarrassing to the White House,” says one insider, who added that the agents' careers are probably over. “Yes, doubly good judgment there.” Eleven agents have been placed on leave in the incident, notes the AP, and another five military personnel have been accused of similar misconduct after violating curfew. None of the Secret Service agents involved were directly responsible for Obama's protection. A Secret Service rep has apologized "for any distraction."
+– A day after being accidentally introduced as "President Clinton," Hillary seems to be taking pains to kill talk of a future run in New Zealand's media, reports Reuters. Asked whether she'd "ruled out" running through 2016, she replied, "Oh yes, yes. I'm very pleased to be doing what I'm doing as secretary of state." Asked in another interview whether she could be the first female president, she answered, "Well, not me. But it will be someone ..." The significance? Probably not much, writes Laura Rozen in Politico, noting how one of Clinton's answers is tied to her being secretary of state—a post she likely won't hold in 2016. On another front, Clinton said the midterm losses were "big—but not out of the pattern of historical political elections." She added, "I think the president made very clear was he made decisions which were essential for the well-being of the American people."
 
 GENERATED SUMMARY:
-Rep. Pete King said the raunchy rendezvous involved 11 agents and went sour when an agent refused to pay one of the women, who were presumed to be hookers. Local cops were called to the hotel in Cartagena and, because the matter involved foreigners, a report was written up and sent to the U.S. Embassy. At least one supervisor was among the agents involved, King said.
+NEW: Clinton says U.S. should be ready for a female president, adding "it should be" Clinton says she is very pleased to be doing what she is doing as Secretary of State. Clinton also sought to defend President Barack Obama and put the Democrats' losses in the midterms in perspective. New Zealand Prime Minister John Phillip Key introduced her yesterday as "President Clinton"
 
 ================================================================================
 
-Example 2 (Dataset index: 912)
+ref sum len: 895 gen sum len: 377
+
+Example 2 (Dataset index: 2343)
 ================================================================================
 DOCUMENT:
-A volunteer for Ben Carson's Republican presidential campaign died Tuesday after a van carrying four staff members flipped over on a patch of ice in Cass County, Iowa, and was rammed by another vehicle, hospital officials confirmed Tuesday night. 
+By Andrew Kornblatt 
  
- Play Facebook 
+ While the ocean covers roughly 70 percent of our planet’s surface, we currently only have about 5-7 percent of that spectacularly large area mapped in any meaningful way. In fact, we have better maps of the surface of the moon and mars than we do of the ocean floor. XPRIZE, the non-profit foundation whose lofty mission is to “design and manage public competitions” that better mankind, has just launched a new ocean challenge which will likely draw the attention of marine scientists, geologists and hobbyists everywhere. 
  
- Twitter 
+ The three-year global competition is focused on ocean mapping and, with a U.S.$ 7,000,000 prize purse and the illustrious title of “XPRIZE Winner”, the competition is is likely to push the technologies that drive ocean exploration. 
  
- Embed Ben Carson volunteer killed when campaign van crashes in Iowa 0:28 autoplay autoplay Copy this code to your website or blog 
- 
- Carson immediately suspended his campaign for at least two days to travel from South Carolina to Omaha, Nebraska, where Braden Joplin, 25, was rushed for treatment at the University of Nebraska Medical Center, the campaign said. 
- 
- Joplin died at 4:30 p.m. (5:30 p.m. ET), the hospital said. The other passengers — Drew McCall, a field director for the campaign, and volunteers Aaron Ohnemus and Ryan Patrick Shellooe — weren't seriously injured and were released from a local hospital, the campaign said. 
- 
- Rest In Peace Braden Joplin. Our thoughts and prayers are with his family....
+ “This competition is technically challenging, but it is also very interdisciplinary. It involves underwater robotics, it involves computer science, there is a digital imagery component to it… We expect a number o...
 
 REFERENCE SUMMARY:
-– A sad day for the Ben Carson campaign: The GOP candidate canceled Tuesday and Wednesday campaign events after the death of a volunteer in a car crash in western Iowa. Braden Joplin, a 25-year-old from Midland, Texas, was fatally injured and three other campaign workers were hurt Tuesday afternoon when their van flipped over on an icy road and was hit by another vehicle, reports NBC News. Joplin was flown to a hospital in Nebraska, while the other three were treated locally and released. Politico reports that Carson, who was in South Carolina at the time, flew to Nebraska when he heard the news and paid for a private jet to bring Joplin's family out from Texas. "One of the precious few joys of campaigning is the privilege of meeting bright young men and women who are so enthusiastic about their country that they will freely give of their time and energy to work on its behalf," Carson said in a statement. "America lost one of those bright young men today. I had the privilege of knowing Braden Joplin personally, and am filled with a deep and profound sadness at his passing." Other candidates, including Ted Cruz and Hillary Clinton, tweeted their condolences, while Bernie Sanders mentioned Joplin at the start of a rally in Iowa City, the AP reports. "I have a lot of respect for any young person who gets involved in the political process," Sanders said. "Our hearts go out to the family of the young man."
+– Have a great idea about how to map the ocean floor? It could be worth millions. The X Prize Foundation, which two years ago asked for a way to gauge ocean acidification, is offering $7 million to teams able to develop high-resolution maps of the seafloor over the next three years. The latest competition meant to better humankind aims to hurry "innovation to further explore one of our greatest unexplored frontiers," X Prize CEO Peter Diamandis tells NBC News, noting "95% of the deep sea remains a mystery to us." In truth, we have better maps of the moon and Mars than of the seafloor, per National Geographic and Live Science. The foundation will accept submissions for robots capable of creating high-resolution maps, identifying geological and archaeological features like volcanoes and shipwrecks, and taking photos until September 2016. The devices will be tested at 6,500 and 13,000 feet about a year later. "This competition is technically challenging, but it is also very interdisciplinary," says X Prize's senior director. "It involves underwater robotics, it involves computer science, there is a digital imagery component to it. We want to help spur unparalleled ocean exploration through innovation and radical breakthroughs to find all the different wonders in the deep sea." The team that claims the top prize will take home $4 million, the second-place team will get $1 million, and an additional $1 million will be divided among other teams in the top 10. There will also be a $1 million award funded by the National Oceanic and Atmospheric Administration for any device that can follow a chemical or biological signal to detect "sources of pollution, enable rapid response to leaks and spills, identify hydrothermal vents and methane seeps, as well as track marine life for scientific research and conservation efforts," per an NOAA scientist.
 
 GENERATED SUMMARY:
-A volunteer for Ben Carson's Republican presidential campaign died after a van carrying four staff members flipped over on a patch of ice in Cass County, Iowa. Carson immediately suspended his campaign for at least two days to travel from South Carolina to Omaha, Nebraska. The other passengers — Drew McCall, a field director for the campaign, and volunteers Aaron Ohnemus and Ryan Patrick Shellooe — weren't seriously injured.
+XPRIZE, the non-profit foundation whose lofty mission is to "design and manage public competitions" that better mankind, has just launched a new ocean challenge. The three-year global competition is focused on ocean mapping and, with a YOU.S.$ 7,000,000 prize purse and the illustrious title of "XPRIZE Winner" The mapping challenge is the third in a series of five multi-million dollar prizes the foundation has promised to launch by 2020.
 
 ================================================================================
 
-Example 3 (Dataset index: 204)
+ref sum len: 1866 gen sum len: 440
+
+Example 3 (Dataset index: 1179)
 ================================================================================
 DOCUMENT:
-Perhaps Google (Alphabet?) should have googled its new name before it decided to restructure the whole company. 
+The former Army captain who received the Medal of Honor on Tuesday has asked to return to active duty in the Army, a rare move by an officer who has lived to wear the military's highest award. 
  
- The New York Times reports that Google's new parent company, Alphabet, has encountered an issue with german automaker BMW, which owns a fleet services company with the same name and the domain Alphabet.com. 
+ Two U.S. officials tell The Associated Press that William D. Swenson has submitted a formal request to the Army and officials are working with him to allow his return. 
  
- A spokesperson for BMW told the Times the company isn't planning on selling its domain and that Alphabet was a large part of its business. 
+ Swenson was awarded the Medal of Honor by President Barack Obama in the White House Tuesday afternoon for risking his life to recover bodies and save fellow troops during a lengthy battle against the Taliban in Afghanistan near the Pakistan border in 2009. 
  
- See also: What Google has to gain by adopting the Alphabet 
+ The U.S. officials spoke on condition of anonymity because they were not authorized to discuss the request until a decision was made. 
  
- With the major restructuring announcement yesterday, Alphabet launched abc.xyz as its domain name. Alphabet, led by Google founders Larry Page and Sergey Brin, is now the parent company of Google, a move designed to separate the core products (search, Gmail, Android, etc.) from its more far reaching projects (Fiber, Calico, X, self-driving cars). 
- 
- While the move makes sense for Alphabet, it confused many. 
- 
- BMW is looking into whether Google's Alphabet has i...
+ Swenson, 34, left the military in February 2011 as a captain, but he could rise to the rank of major once he rejoins. In order to successfully re-enlist, Swenson will have to pass a physical, a drug test and other routine reviews. B...
 
 REFERENCE SUMMARY:
-– Guess Google execs are serious about that whole reorg under the Alphabet parent-company thing. Just days after Alphabet officially became Google's holding company, it scooped up a brand-new domain name: abcdefghijklmnopqrstuvwxyz.com, which has been around since 1999 and was purchased for an unspecified amount, NBC News reports. The page isn't functional as of this post, and a company rep says, "We realized we missed a few letters in abc.xyz, so we're just being thorough." (Google set up that website in August.) It's hard to imagine Google directing the general public to use the site—would you want to type in all those letters every time?—and NBC notes the domain purchase may simply be a preemptive strike to keep others from usurping it for their own use. Two domains the company probably won't be able to get its hands on: ABC.com (for the American Broadcasting Company, owned by Disney) and alphabet.com, which BMW is unlikely to give up, notes Consumerist. If you'd been hoping to nab the domain for yourself, you can always try to cybersquat the site away when Google's hold on it expires in August 2018. (Alphabet has ditched its "Don't Be Evil" motto for one that's not as quirky.)
+– Former Army Capt. Will Swenson received the nation's highest military honor today for rescuing fellow soldiers under heavy fire in Afghanistan a few years ago, reports CNN. And in a rare move, the 34-year-old has formally asked the Army to return him to active duty, reports AP. Generally speaking, Medal of Honor recipients are out of action, but it looks like Swenson will be back in uniform fairly soon. Swenson left the military in 2011, two years after the actions during a firefight in Afghanistan's Ganjgal valley that earned him his medal. "In moments like this, Americans like Will remind us of what our country can be at its best," said President Obama at today's ceremony, as quoted by Fox News.
 
 GENERATED SUMMARY:
-Google's new parent company, Alphabet, has encountered an issue with german automaker BMW. BMW owns a fleet services company with the same name and the domain Alphabet.com. BMW is looking into whether Google's Alphabet has infringed on its trademark.
+Army Capt. William Swenson has asked to return to active duty, officials say. Swenson was awarded the Medal of Honor on Tuesday for his actions in Afghanistan. Swenson, 34, left the military in February 2011 as a captain, but could rise to the rank of major.
 
 ================================================================================
 
-Example 4 (Dataset index: 2253)
+ref sum len: 708 gen sum len: 258
+
+Example 4 (Dataset index: 3789)
 ================================================================================
 DOCUMENT:
-These crawls are part of an effort to archive pages as they are created and archive the pages that they refer to. That way, as the pages that are referenced are changed or taken from the web, a link to the version that was live when the page was written will be preserved.Then the Internet Archive hopes that references to these archived pages will be put in place of a link that would be otherwise be broken, or a companion link to allow people to see what was originally intended by a page's authors.The goal is to fix all broken links on the web . Crawls of supported "No More 404" sites. ||||| 8-year-old Westport boy on trial for exuberance 
+A memorial to Soundgarden vocalist and guitarist Chris Cornell is pictured at KEXP on May 18, 2017 in Seattle, Washington. Cornell was found dead in his hotel room in Detroit. (Photo: Stephen Brashear / Getty Images) 
  
- facebook photo Jennifer Connell. Connell claims her 8-year-old nephew of Westport, acted unreasonably when he leaped into her arms, causing her to fall on the ground and break her wrist four years ago. The case is in court in Bridgeport, Conn. less facebook photo Jennifer Connell. Connell claims her 8-year-old nephew of Westport, acted unreasonably...
+ Just minutes after Soundgarden’s concert at the Fox Theatre ended Wednesday night, frontman Chris Cornell was back in his hotel room at the MGM Grand, talking by phone with his wife. 
+ 
+ What Vicky Cornell heard alarmed her. 
+ 
+ Her husband was slurring his words, sounded groggy and kept repeating: “I’m just tired,” according to a family statement and a police report obtained by The Detroit News. 
+ 
+ She asked the band’s bodyguard to check on Cornell, who busted into the room and made a gruesome discovery: the alternative rocker was on the bathroom floor “with blood running from his mouth and a red exercise band around (his) neck,” according to the report. 
+ 
+ Within two hours, Cornell, 52, was pronounced dead. The police report, filed by officers from the Detroit Poli...
 
 REFERENCE SUMMARY:
-– "If only they could just hug it out," laments the New York Daily News in the case of Connell v. Tarala—Connell being 54-year-old Jennifer Connell, Tarala her 12-year-old nephew Sean, who she claims was so excited at his birthday party four years ago that he broke her wrist, the Connecticut Post reports. The New York City woman, who's suing Sean for $127,000, testified in court Friday that when she arrived at her nephew's birthday party in Westport, Conn., on March 28, 2011, Sean was riding his brand-new bike outside. When he saw Connell, she said, he ran toward her yelling, "Auntie Jen, Auntie Jen!" and then flung his 50-pound body at her, knocking them both to the ground and breaking her wrist. "I remember him shouting, 'Auntie Jen, I love you,' and there he was flying at me," she testified. Connell told the jury she didn't complain about her injury at the time because "it was his birthday party and I didn't want to upset him," but she noted that the broken wrist upended her busy life. "I live in Manhattan in a third-floor walk-up, so it has been very difficult," she said. "And we all know how crowded it is in Manhattan." Not to mention how it affected her in social situations: "I was at a party recently, and it was difficult to hold my hors d'oeuvre plate," she noted. Even though Connell says Sean—who the Post notes listened with his dad to his aunt's testimony looking "confused"; his mom died last year—has always been "very loving" and "sensitive" toward her, she thinks he should still be liable and understand that his actions have consequences. (These parents got an invoice after their son was a no-show at a birthday party.)
+– Chris Cornell kept saying "I'm just tired" in his final phone conversation with his wife, according to a police report with more details on the final hour of the Soundgarden frontman's life. Vicky Cornell, alarmed by how different her husband sounded, called band bodyguard Martin Kirsten, who had to kick in two latched doors before he found the 52-year-old dead on the bathroom floor with "blood running from his mouth and a red exercise band" around his neck, according to a police report seen by the Detroit News. His death was ruled suicide by hanging, but Vicky Cornell says he told her he "had taken an extra Ativan" or two, and she believes the anti-anxiety medication or other substances may have clouded his judgment. According to TMZ, Cornell used a piece of climbing equipment to secure the exercise band to the bathroom door at his suite in the MGM Grand Hotel in Detroit. Less than an hour earlier, the band had played a sold-out show in front of 5,000 fans. Soundgarden had been scheduled to play the Rock on the Range festival in Columbus, Ohio Friday night, Pitchfork reports. Instead, artists including Bush and Live paid tribute to Cornell by covering songs by his bands Soundgarden, Audioslave, and Temple of the Dog. Rolling Stone reports that Rage Against the Machine co-founder Tom Morello paid tribute to his former Audioslave bandmate with a moving poem, which can be seen in full here.
 
 GENERATED SUMMARY:
-Jennifer Connell claims her 8-year-old nephew of Westport, acted unreasonably when he leaped into her arms, causing her to fall on the ground and break her wrist four years ago. She is seeking $127,000 from the boy, who she described as always being “very loving, sensitive,” toward her. The boy is the only defendant in the case.
+Chris Cornell was found dead in his hotel room at the MGM Grand in Detroit. He was on the bathroom floor "with blood running from his mouth and a red exercise band around (his) neck," a police report says. Within two hours, Cornell, 52, was pronounced dead.
 
 ================================================================================
 
-Example 5 (Dataset index: 2006)
+ref sum len: 1413 gen sum len: 257
+
+Example 5 (Dataset index: 3030)
 ================================================================================
 DOCUMENT:
-My dearest friend and YOUR favorite castaway, Dawn Wells ( Mary Ann from ‘Gillian’s Island’ ) 
+These crawls are part of an effort to archive pages as they are created and archive the pages that they refer to. That way, as the pages that are referenced are changed or taken from the web, a link to the version that was live when the page was written will be preserved.Then the Internet Archive hopes that references to these archived pages will be put in place of a link that would be otherwise be broken, or a companion link to allow people to see what was originally intended by a page's authors.The goal is to fix all broken links on the web . Crawls of supported "No More 404" sites. ||||| There will be some who doubt Dylan’s right to the Nobel prize in literature. There are others who believe he should get a special Nobel just for being Bob Dylan 
  
- needs YOU ! 
- 
- 
- 
- After 2008, like many of us, Dawn suffered through the banking crash and lost everything including her life savings in addition, to a life -threatening surgery which came close to killing her. 
- 
- Dawn was a victim of an unexpected accident that required hospitalization for two months and a very long time to rest and heal 
- 
- Dawn needs $194,000 to alleviate penalties by the IRS( which are compounded daily) and to pay her hospital costs 
- 
- Dawn is living one of the greatest fears we Americans have, an uncertain future. Should any of you out there wish to contribute a small some to help a woman who gave so many people Joy over the years, it would be so appreciated. God Bless 
- 
- 
- 
- PLEASE PLEASE HELP ME SAVE OUR AMERICAN ICON- Dawn Wells 
- 
- 
- 
- Thank you in advance. 
- 
- 
- 
- Dugg Kirkpatrick 
- 
- 
- 
- ps 
- 
- i had to up the goal because of fees that go fund me has. I did...
+ In the latest of many distinctions garlanding a career stretching back five-and-a-half decades, Bob Dylan has become the first member of the Rock and Roll Hall of Fame to win the Nobel prize in literature. Some will argue against the awa...
 
 REFERENCE SUMMARY:
-– Dawn Wells is not doing so well, according to the friend who launched a GoFundMe crowdfunding campaign for the Gilligan's Island actress. Wells, 79, who played Mary Ann on the show, lost almost everything in the 2008 financial crisis, the friend tells TMZ. This year, while already recovering from a major surgery and complications resulting from it, she broke her knee. She now needs to move to an assisted living facility, but it won't take her because she's nearly $200,000 in debt, the friend says. "Dawn needs $194,000 to alleviate penalties by the IRS (which are compounded daily) and to pay her hospital costs," the GoFundMe campaign says, though it's seeking to raise just $180,000. In a campaign update, the friend quotes Wells as saying, "I just don’t know what happened! I thought I would be just fine, but apparently I’m not. I’ve found myself with no home, husband, or kids. I thank god every day that I have friends and fans who care or this whole thing would be too overwhelming." The campaign asks the public to help "YOUR favorite castaway," noting that she is "a woman who gave so many people Joy over the years." As of this writing, it has raised more than $46,000. People notes that the campaign is run by someone calling himself Dugg Kirkpatrick, and points to a Twitter photo seeming to indicate he is a hairstylist who has worked with Wells.
+– "Bob Dylan" was one of the top Twitter trends Thursday thanks to the troubadour taking home the Nobel Prize for Literature. But while most of social media is beaming at his newest honor, Scottish author Irvine Welsh, who wrote the novel Trainspotting, isn't terribly pleased, the AP reports. Welsh spent much of Thursday morning on Twitter retweeting posts that trashed Dylan's win, and tweeting: "I'm a Dylan fan, but this is an ill conceived nostalgia award wrenched from the rancid prostates of senile, gibbering hippies." His main beef appears to be the separation of a metaphorical church and state—in this case, songs and lit—that he thinks should exist, adding, "If you're a 'music' fan, look it up in the dictionary. Then 'literature'. Then compare and contrast." Other takes on Dylan's new laureate status: The Wall Street Journal lists feedback from major authors, from the gushing—Salman Rushdie writes on Twitter, "From Orpheus to Faiz, song & poetry have been closely linked. Dylan is the brilliant inheritor of the bardic tradition. Great choice"—to the eyerolling, including satirical writer Gary Shteyngart's take: "I totally get the Nobel committee. Reading books is hard." Jay Perini gives a thumbs-up at CNN, noting how Dylan's songs "speak to our deepest concerns" and how he's "filled our heads with language that both interprets and transforms the realities we confront." At the Guardian, Richard Williams looks at whether music and literature can actually be successfully linked (in terms of a Nobel Prize), and he breaks it down line by line to show the "profound resonance" of Dylan's lyrics. Robert Chalmers makes the slightly uncomfortable observation for GQ that "everything would be so much more simple if he were dead," as Dylan would have ascended to legendary status. But Chalmers still jumps on the pro-Dylan bandwagon, noting, "His voice may, like the Havana cigars and bourbon to which it is often lazily compared, be an acquired taste, but Dylan is responsible, as much as Billie Holiday, for reinventing the whole style of popular singing." Meanwhile, a naysayer singing the Black "Eating Crow" Blues: Alex Shephard, who wrote last week for the New Republic that "Bob Dylan 100 percent is not going to win. Stop saying Bob Dylan should win the Nobel Prize."
 
 GENERATED SUMMARY:
-Dawn Wells, 79, is best known for playing Mary Ann Summers on Gilligan’s Island. A man by the name of Dugg Kirkpatrick recently launched a fundraiser with a goal of almost $200,000 to help Wells, 79, pay off medical bills. As of Friday morning, the campaign has raised nearly $120,000 in just 10 days.
+Bob Dylan is the first member of the Rock and Roll Hall of Fame to win the Nobel prize in literature. Some will argue against the award, as they argued against him in the long and infinitely tiresome Dylan v Keats controversy. Others will feel that he deserves the creation of a special Nobel prize simply for being Bob Dylan.
 
 ================================================================================
+
+ref sum len: 2296 gen sum len: 326
 

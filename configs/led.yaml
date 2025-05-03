@@ -1,0 +1,92 @@
+# # data:
+# #   dataset_name: "alexfabbri/multi_news"
+# #   sample_ratio: 0.02  # Start with 2% of the data
+# #   max_input_length: 4096  # LED can handle longer inputs
+# #   max_output_length: 256
+# #   batch_size: 1  # Smaller batch size due to model size
+# #   num_workers: 4
+# #   seed: 42
+
+# # model:
+# #   model_name: "allenai/led-base-16384"  # LED model
+# #   learning_rate: 5.0e-5
+# #   weight_decay: 0.01
+# #   warmup_steps: 500
+# #   max_grad_norm: 1.0
+# #   gradient_accumulation_steps: 16  # Increase for larger models
+
+# # training:
+# #   output_dir: "outputs/led_models"
+# #   num_epochs: 3
+# #   eval_steps: 500
+# #   save_steps: 1000
+# #   logging_steps: 100
+# #   use_fp16: true
+# #   distributed: false
+# #   local_rank: -1
+# #   world_size: 1
+
+# # configs/led.yaml
+# model:
+#   name: "allenai/led-base-16384"
+# data:
+#   max_input_length: 4096
+#   max_output_length: 512
+#   batch_size: 2
+#   num_workers: 4
+#   sample_ratio: 1.0
+#   remove_stopwords: false
+# training:
+#   epochs: 3
+#   lr: 3e-05
+#   warmup_steps: 500
+#   weight_decay: 0.01
+#   fp16: false
+#   log_interval: 50
+#   seed: 42
+# generation:
+#   num_beams: 4
+#   length_penalty: 1.0
+# output:
+#   output_dir: "outputs/led"
+# ddp:
+#   backend: "nccl"
+#   init_method: "env://"
+#   world_size: 1
+
+# configs/led.yaml
+model:
+  name: "allenai/led-base-16384"
+
+data:
+  dataset_name: "alexfabbri/multi_news"
+  max_input_length: 4096   # shortened for memory
+  max_output_length: 512
+  batch_size: 2
+  num_workers: 4
+  sample_ratio: 1.0
+  remove_stopwords: false
+
+training:
+  epochs: 3
+  lr: 3e-05
+  warmup_steps: 500
+  weight_decay: 0.01
+  fp16: false
+  log_interval: 50
+  seed: 42
+
+generation:
+  num_beams: 4
+  length_penalty: 1.0
+  min_length: 5
+  no_repeat_ngram_size: 2
+  early_stopping: true
+
+output:
+  output_dir: "outputs/led"
+
+ddp:
+  backend: "nccl"
+  init_method: "env://"
+  world_size: 1

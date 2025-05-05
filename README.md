@@ -71,3 +71,23 @@ Per‑example records (`eval_records.json`) and aggregate CSV
 * **Evaluation Suite:** ROUGE‑1/2/L, BERTScore, extractiveness, density (+ bootstrap CI).
 * **Modularity:** one CLI (`src/main.py`) driven by YAML; swap models or hyper‑params without code edits.
 
+---
+
+## Results
+
+Here's a comparison of ROUGE scores for the fine-tuned models on the Multi-News test set (200 random samples):
+
+![Comparison of ROUGE Scores](outputs/plots/rouge_metrics_labeled.png "ROUGE-1, ROUGE-2, ROUGE-L F1 Scores")
+
+| Metric                  | Pegasus        | LED            | BART           |
+|-------------------------|----------------|----------------|----------------|
+| ROUGE‑1                 | 0.414          | **0.438** | 0.402          |
+| &nbsp;&nbsp;± Std. dev. | 0.009          | 0.010          | 0.009          |
+| &nbsp;&nbsp;95% CI      | [0.394, 0.434] | [0.419, 0.454] | [0.385, 0.420] |
+| ROUGE‑2                 | 0.156          | **0.183** | 0.161          |
+| ROUGE‑L                 | 0.214          | **0.236** | 0.218          |
+| BERTScore F<sub>1</sub> | 0.865          | 0.865          | 0.867          |
+| Extractiveness          | 0.916          | 0.917          | 0.923          |
+| Density (Compression)   | 0.122          | 0.152          | 0.115          |
+
+---

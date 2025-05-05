@@ -12,7 +12,6 @@ if project_root not in sys.path:
 
 import argparse
 import logging
-import random
 import torch
 
 from src.main import load_config
@@ -37,13 +36,13 @@ def main():
     parser.add_argument(
         "--subset_ratio",
         type=float,
-        default=0.01,
+        default=0.04,
         help="Fraction of the training split to use (e.g. 0.01 for 1%)"
     )
     parser.add_argument(
         "--epochs",
         type=int,
-        default=1,
+        default=2,
         help="Number of epochs to train on the subset"
     )
     args = parser.parse_args()
@@ -53,7 +52,7 @@ def main():
         datefmt="%m/%d/%Y %H:%M:%S",
         level=logging.INFO
     )
-    logger = logging.getLogger("train_on_subset")
+    logger = logging.getLogger(__name__)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -62,7 +61,8 @@ def main():
         config = load_config(cfg_path)
         config.data.sample_ratio  = args.subset_ratio
         config.training.epochs    = args.epochs
-        config.data.batch_size = 1
+        config.data.batch_size = 2
+        config.training.fp16 = True
         # redirect outputs to a *_subset folder
         base_out = config.output.output_dir.rstrip("/")
         config.output.output_dir  = f"{base_out}_subset"
@@ -80,6 +80,9 @@ def main():
             ddp=False,
             local_rank=0
         )
+
+        model.gradient_checkpointing_enable()
+
 
         # Build small‐subset dataloaders
         train_loader, val_loader, _ = get_dataloaders(

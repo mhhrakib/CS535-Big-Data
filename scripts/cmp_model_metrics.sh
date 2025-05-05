@@ -8,7 +8,7 @@ cd "$PROJECT_ROOT"
 # ──────────────────────────────────────────────────────────────────────────────
 
 # How many samples to evaluate & which split
-NUM_SAMPLES=5
+NUM_SAMPLES=20
 SPLIT="test"
 
 # Map model names → their checkpoint subdirs

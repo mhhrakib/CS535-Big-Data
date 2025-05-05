@@ -7,7 +7,9 @@ import numpy as np
 import torch
 from torch.optim import AdamW
 from transformers import get_linear_schedule_with_warmup
-from torch.cuda.amp import autocast, GradScaler
+# from torch.cuda.amp import autocast, GradScaler
+from torch.amp import autocast, GradScaler
+# from torch.cuda.amp import GradScaler
 from src.dist_utils import is_main_process
 from tqdm import tqdm
 
@@ -75,6 +77,8 @@ class Trainer:
 
         # Mixed precision
         self.scaler = GradScaler() if self.use_amp else None
+        # self.scaler = GradScaler(device_type="cuda") if self.use_amp else None
+
 
         # Prepare output directory
         self.output_dir = config.output.output_dir
@@ -121,8 +125,21 @@ class Trainer:
 
             self.optimizer.zero_grad()
 
+            # if self.use_amp:
+            #     with autocast():
+            #         outputs = self.model(
+            #             input_ids=input_ids,
+            #             attention_mask=attention_mask,
+            #             labels=labels
+            #         )
+            #         loss = outputs.loss
+            #     self.scaler.scale(loss).backward()
+            #     self.scaler.step(self.optimizer)
+            #     self.scaler.update()
+
             if self.use_amp:
-                with autocast():
+                # explicitly target the CUDA device
+                with autocast(device_type="cuda"):
                     outputs = self.model(
                         input_ids=input_ids,
                         attention_mask=attention_mask,

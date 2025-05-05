@@ -334,13 +334,18 @@ def main():
         for idx in indices:
             doc = ds[idx]["document"]
             ref = ds[idx]["summary"]
+
             summ = generate_summary(model, tokenizer, doc, config, device)
 
+            logger.info(f"doc: {doc[:50]}\n, sum type: {type(summ)}, sum: {summ}")
+
+            doc_snip = doc.replace("\n", " ")[:800]
+
             fout.write(f"Example {idx}\n")
-            fout.write("DOCUMENT:\n"           + doc.replace("\n", " ")[:1000] + "...\n\n")
-            fout.write("REFERENCE SUMMARY:\n"   + ref + "\n\n")
-            fout.write("GENERATED SUMMARY:\n"   + summ + "\n\n")
-            fout.write("="*80 + "\n\n")
+            fout.write(f"DOCUMENT:\n{doc_snip}...\n\n")
+            fout.write(f"REFERENCE SUMMARY (chars: {len(ref)}):\n{ref}\n\n")
+            fout.write(f"GENERATED SUMMARY (chars: {len(summ)}):\n{summ}\n\n")
+            fout.write(f"{'=' * 80}\n\n")
 
     logger.info(f"Wrote {len(indices)} summaries to {args.output_file}")
 

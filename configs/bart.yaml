@@ -38,13 +38,16 @@ data:
   num_workers: 4
   sample_ratio: 1.0
   remove_stopwords: false
+  dedup: True
+  dedup_threshold: 0.5
+
 
 training:
-  epochs: 3
-  lr: 3e-05
+  epochs: 2
+  lr: 2e-05
   warmup_steps: 500
   weight_decay: 0.01
-  fp16: false
+  fp16: true
   log_interval: 100
   seed: 42
 
@@ -61,4 +64,7 @@ output:
 ddp:
   backend: "nccl"
   init_method: "env://"
-  world_size: 1
+  world_size: 4
+
+evaluation:
+  bootstrap_iters: 100

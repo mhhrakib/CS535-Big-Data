@@ -9,9 +9,9 @@ The new embeddings will be initialized from a multivariate normal distribution t
 05/03/2025 15:18:58 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 15:18:59 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 15:18:59 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
-Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 1 Training:  29%|█████████████▏                               | 99/337 [00:33<01:19,  3.01it/s, loss=2.4623]05/03/2025 15:19:32 - INFO - src.trainer - Epoch 1 Step 100/337 - Loss: 2.4645
 Epoch 1 Training:  59%|█████████████████████████▉                  | 199/337 [01:06<00:46,  3.00it/s, loss=2.5343]05/03/2025 15:20:06 - INFO - src.trainer - Epoch 1 Step 200/337 - Loss: 2.6315
@@ -19,11 +19,11 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 337/337 [01:52<00:00,  2.99it/s, loss=2.2188]
 Epoch 1 Validation: 100%|████████████████████████████████████████████| 42/42 [00:05<00:00,  7.52it/s, loss=2.1340]
 05/03/2025 15:20:57 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.4997 - Val Loss: 2.1489
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 15:21:18 - INFO - src.trainer - Checkpoint saved: outputs/pegasus_subset/best_model
 05/03/2025 15:21:18 - INFO - src.trainer - New best model saved at epoch 1
-Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 2 Training:  29%|█████████████▏                               | 99/337 [00:33<01:19,  2.99it/s, loss=2.0595]05/03/2025 15:21:51 - INFO - src.trainer - Epoch 2 Step 100/337 - Loss: 2.2280
 Epoch 2 Training:  59%|█████████████████████████▉                  | 199/337 [01:07<00:47,  2.93it/s, loss=2.1420]05/03/2025 15:22:25 - INFO - src.trainer - Epoch 2 Step 200/337 - Loss: 2.0371
@@ -44,9 +44,9 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 15:23:40 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 15:23:41 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 15:23:41 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
-Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 1 Training:  29%|█████████████▏                               | 99/337 [00:16<00:39,  6.00it/s, loss=2.3118]05/03/2025 15:23:58 - INFO - src.trainer - Epoch 1 Step 100/337 - Loss: 2.2444
 Epoch 1 Training:  59%|█████████████████████████▉                  | 199/337 [00:33<00:23,  5.92it/s, loss=2.5176]05/03/2025 15:24:15 - INFO - src.trainer - Epoch 1 Step 200/337 - Loss: 2.5910
@@ -54,11 +54,11 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 337/337 [00:56<00:00,  5.93it/s, loss=1.5804]
 Epoch 1 Validation: 100%|████████████████████████████████████████████| 42/42 [00:03<00:00, 11.53it/s, loss=1.8792]
 05/03/2025 15:24:42 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.2206 - Val Loss: 2.0164
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 15:24:56 - INFO - src.trainer - Checkpoint saved: outputs/bart_subset/best_model
 05/03/2025 15:24:56 - INFO - src.trainer - New best model saved at epoch 1
-Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 2 Training:  29%|█████████████▏                               | 99/337 [00:16<00:40,  5.95it/s, loss=1.7847]05/03/2025 15:25:13 - INFO - src.trainer - Epoch 2 Step 100/337 - Loss: 1.4353
 Epoch 2 Training:  59%|█████████████████████████▉                  | 199/337 [00:33<00:23,  5.96it/s, loss=2.3485]05/03/2025 15:25:30 - INFO - src.trainer - Epoch 2 Step 200/337 - Loss: 1.9542
@@ -79,9 +79,9 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 15:26:13 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 15:26:13 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 15:26:13 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
-Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 1 Training:   1%|▌                                             | 4/337 [00:02<03:44,  1.48it/s, loss=3.4019]Input ids are automatically padded from 4070 to 4096 to be a multiple of `config.attention_window`: 1024
 Epoch 1 Training:   3%|█▍                                           | 11/337 [00:07<03:30,  1.55it/s, loss=3.4556]Input ids are automatically padded from 4093 to 4096 to be a multiple of `config.attention_window`: 1024
@@ -124,7 +124,7 @@ Epoch 1 Validation: 100%|██████████████████�
 05/03/2025 15:30:03 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.4701 - Val Loss: 1.8889
 05/03/2025 15:30:09 - INFO - src.trainer - Checkpoint saved: outputs/led_subset/best_model
 05/03/2025 15:30:09 - INFO - src.trainer - New best model saved at epoch 1
-Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 2 Training:   8%|███▋                                         | 28/337 [00:18<03:21,  1.54it/s, loss=1.7771]Input ids are automatically padded from 3443 to 4096 to be a multiple of `config.attention_window`: 1024
 Epoch 2 Training:  12%|█████▎                                       | 40/337 [00:26<03:14,  1.53it/s, loss=1.7028]Input ids are automatically padded from 2985 to 3072 to be a multiple of `config.attention_window`: 1024
@@ -166,12 +166,12 @@ Epoch 2 Validation: 100%|██████████████████�
   checkpoint : outputs/bart_subset/best_model
 
 05/03/2025 18:15:35 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 18:15:36 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
 05/03/2025 18:15:37 - INFO - src.evaluate - Sampled 20 examples for evaluation
 Eval generation:   0%|                                                                     | 0/20 [00:00<?, ?it/s]05/03/2025 18:15:37 - INFO - src.utils - cleaned text: Most of th
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Eval generation:   5%|███                                                          | 1/20 [00:00<00:14,  1.31it/s]05/03/2025 18:15:38 - INFO - src.utils - cleaned text: A voluntee
 Eval generation:  10%|██████                                                       | 2/20 [00:01<00:16,  1.09it/s]05/03/2025 18:15:39 - INFO - src.utils - cleaned text: Perhaps Go
@@ -338,10 +338,10 @@ Generating summaries: 100%|█████████████████�
 
 05/02/2025 09:38:59 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 09:38:59 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 09:39:02 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:05<00:00,  1.87s/it]
 05/02/2025 09:39:08 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -356,15 +356,15 @@ Generating summaries: 100%|█████████████████�
 05/02/2025 09:39:14 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
 Generating summaries:   0%|                                                                 | 0/3 [00:03<?, ?it/s]
 Traceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
     return _run_code(code, main_globals, None,
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
     exec(code, run_globals)
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 279, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 279, in <module>
     main()
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 266, in main
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 266, in main
     generate_summaries(
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 229, in generate_summaries
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 229, in generate_summaries
     fout.wrtite("REFERENCE SUMMARY\n")
 AttributeError: '_io.TextIOWrapper' object has no attribute 'wrtite'. Did you mean: 'write'?
 
@@ -378,15 +378,15 @@ AttributeError: '_io.TextIOWrapper' object has no attribute 'wrtite'. Did you me
 05/02/2025 09:39:24 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
 Generating summaries:   0%|                                                                 | 0/3 [00:02<?, ?it/s]
 Traceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
     return _run_code(code, main_globals, None,
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
     exec(code, run_globals)
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 279, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 279, in <module>
     main()
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 266, in main
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 266, in main
     generate_summaries(
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 229, in generate_summaries
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 229, in generate_summaries
     fout.wrtite("REFERENCE SUMMARY\n")
 AttributeError: '_io.TextIOWrapper' object has no attribute 'wrtite'. Did you mean: 'write'?
 
@@ -398,10 +398,10 @@ AttributeError: '_io.TextIOWrapper' object has no attribute 'wrtite'. Did you me
 
 05/02/2025 09:40:02 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 09:40:02 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 09:40:04 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:05<00:00,  1.92s/it]
 05/02/2025 09:40:11 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -436,10 +436,10 @@ Generating summaries: 100%|█████████████████�
 
 05/02/2025 10:37:50 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 10:37:50 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 10:37:52 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.12s/it]
 05/02/2025 10:37:57 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -474,10 +474,10 @@ Generating summaries: 100%|█████████████████�
 
 05/02/2025 12:34:53 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 12:34:53 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 12:34:55 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.16s/it]
 05/02/2025 12:34:59 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -512,10 +512,10 @@ Generating summaries: 100%|█████████████████�
 
 05/02/2025 12:52:52 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 12:52:52 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 12:52:55 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.10s/it]
 05/02/2025 12:52:59 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -550,10 +550,10 @@ Generating summaries: 100%|█████████████████�
 
 05/02/2025 12:53:43 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 12:53:43 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 12:53:45 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.11s/it]
 05/02/2025 12:53:49 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -588,10 +588,10 @@ Generating summaries: 100%|█████████████████�
 
 05/02/2025 12:54:30 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 12:54:30 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 12:54:32 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.15s/it]
 05/02/2025 12:54:36 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -626,10 +626,10 @@ Generating summaries: 100%|█████████████████�
 
 05/02/2025 12:55:31 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 12:55:31 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/02/2025 12:55:33 - INFO - __main__ - Loading 'test' split from alexfabbri/multi_news
-Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Generating summaries:   0%|                                                                 | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Generating summaries: 100%|█████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.16s/it]
 05/02/2025 12:55:37 - INFO - __main__ - Summaries written to summaries_bart.txt
@@ -714,13 +714,13 @@ inference.py: error: unrecognized arguments: --config configs/bart.yaml
   output : summaries_led.txt
 
 Traceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
     return _run_code(code, main_globals, None,
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
     exec(code, run_globals)
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 292, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 292, in <module>
     from src.utils import generate_summary
-ImportError: cannot import name 'generate_summary' from 'src.utils' (/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/utils.py)
+ImportError: cannot import name 'generate_summary' from 'src.utils' (/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/utils.py)
 
 === Generating 3 summaries with pegasus ===
   config : configs/pegasus.yaml
@@ -730,13 +730,13 @@ ImportError: cannot import name 'generate_summary' from 'src.utils' (/s/chopin/l
   output : summaries_pegasus.txt
 
 Traceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
     return _run_code(code, main_globals, None,
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
     exec(code, run_globals)
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/inference.py", line 292, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/inference.py", line 292, in <module>
     from src.utils import generate_summary
-ImportError: cannot import name 'generate_summary' from 'src.utils' (/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/utils.py)
+ImportError: cannot import name 'generate_summary' from 'src.utils' (/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/utils.py)
 
 (mds) kestrel0:~/Documents/multi_doc_summarization$ ./scripts/cmp_summaries.sh 
 === Generating 3 summaries with bart ===
@@ -748,9 +748,9 @@ ImportError: cannot import name 'generate_summary' from 'src.utils' (/s/chopin/l
 
 05/02/2025 23:55:47 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/02/2025 23:55:47 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 05/02/2025 23:55:52 - INFO - __main__ - Wrote 3 summaries to summaries_bart.txt
 
@@ -782,35 +782,35 @@ ImportError: cannot import name 'generate_summary' from 'src.utils' (/s/chopin/l
 >   --split     test \
 >   --num_samples 100
 ^CTraceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 196, in _run_module_as_main
     return _run_code(code, main_globals, None,
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/runpy.py", line 86, in _run_code
     exec(code, run_globals)
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/main.py", line 9, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/main.py", line 9, in <module>
     from src.model import load_model_and_tokenizer
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/model.py", line 118, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/model.py", line 118, in <module>
     from src.utils import get_tokenizer
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/utils.py", line 6, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/utils.py", line 6, in <module>
     import nltk
-  File "/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/nltk/__init__.py", line 146, in <module>
+  File "/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/nltk/__init__.py", line 146, in <module>
     from nltk.chunk import *
-  File "/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/nltk/chunk/__init__.py", line 155, in <module>
+  File "/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/nltk/chunk/__init__.py", line 155, in <module>
     from nltk.chunk.api import ChunkParserI
-  File "/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/nltk/chunk/api.py", line 15, in <module>
+  File "/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/nltk/chunk/api.py", line 15, in <module>
     from nltk.parse import ParserI
-  File "/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/nltk/parse/__init__.py", line 100, in <module>
+  File "/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/nltk/parse/__init__.py", line 100, in <module>
     from nltk.parse.transitionparser import TransitionParser
-  File "/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/nltk/parse/transitionparser.py", line 19, in <module>
+  File "/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/nltk/parse/transitionparser.py", line 19, in <module>
     from sklearn.datasets import load_svmlight_file
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/site-packages/sklearn/datasets/__init__.py", line 26, in <module>
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/site-packages/sklearn/datasets/__init__.py", line 26, in <module>
     from ._olivetti_faces import fetch_olivetti_faces
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/site-packages/sklearn/datasets/_olivetti_faces.py", line 22, in <module>
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/site-packages/sklearn/datasets/_olivetti_faces.py", line 22, in <module>
     from scipy.io import loadmat
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/site-packages/scipy/io/__init__.py", line 97, in <module>
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/site-packages/scipy/io/__init__.py", line 97, in <module>
     from .matlab import loadmat, savemat, whosmat
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/site-packages/scipy/io/matlab/__init__.py", line 46, in <module>
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/site-packages/scipy/io/matlab/__init__.py", line 46, in <module>
     from ._mio import loadmat, savemat, whosmat
-  File "/s/chopin/l/grad/c837213756/.conda/envs/mds/lib/python3.10/site-packages/scipy/io/matlab/_mio.py", line 9, in <module>
+  File "/s/chopin/l/grad/std_id/.conda/envs/mds/lib/python3.10/site-packages/scipy/io/matlab/_mio.py", line 9, in <module>
     from ._mio4 import MatFile4Reader, MatFile4Writer
   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
   File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
@@ -832,9 +832,9 @@ main.py: error: unrecognized arguments: --num_samples 3
 (mds) kestrel0:~/Documents/multi_doc_summarization$ python -m src.main eval   --config    configs/bart.yaml   --ckpt_dir  outputs/bart_subset/best_model   --split     test   --num_samples 3
 05/03/2025 00:32:49 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/03/2025 00:32:49 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
-Eval generation:   0%|                                                                                                        | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Eval generation:   0%|                                                                                                        | 0/3 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Eval generation: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.20s/it]
 05/03/2025 00:32:55 - INFO - absl - Using default tokenizer.
@@ -866,10 +866,10 @@ avg_density: 0.0713
 
 05/03/2025 00:48:51 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
 05/03/2025 00:48:51 - INFO - src.utils - Loading tokenizer for model: outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 00:48:52 - INFO - src.evaluate - Sampled 5 examples for evaluation
-Eval generation:   0%|                                                                                                        | 0/5 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Eval generation:   0%|                                                                                                        | 0/5 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Eval generation: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:05<00:00,  1.16s/it]
 05/03/2025 00:48:59 - INFO - src.evaluate - Computing ROUGE...
@@ -956,11 +956,11 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
 05/03/2025 15:09:36 - INFO - src.model - Loaded tokenizer class PegasusTokenizerFast for model google/pegasus-large
 Traceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 109, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 109, in <module>
     main()
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 88, in main
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 88, in main
     train_loader, val_loader, _ = get_dataloaders(
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/data_processor.py", line 281, in get_dataloaders
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/data_processor.py", line 281, in get_dataloaders
     dedup=data_cfg.get("dedup", False)
 AttributeError: 'types.SimpleNamespace' object has no attribute 'get'
 (mds) kestrel0:~/Documents/multi_doc_summarization$ history | grep train_on_
@@ -977,11 +977,11 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
 05/03/2025 15:12:26 - INFO - src.model - Loaded tokenizer class PegasusTokenizerFast for model google/pegasus-large
 Traceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 109, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 109, in <module>
     main()
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 88, in main
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 88, in main
     train_loader, val_loader, _ = get_dataloaders(
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/data_processor.py", line 281, in get_dataloaders
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/data_processor.py", line 281, in get_dataloaders
     dedup=data_cfg.get("dedup", False)
 AttributeError: 'types.SimpleNamespace' object has no attribute 'get'
 (mds) kestrel0:~/Documents/multi_doc_summarization$ python scripts/train_on_subset.py 
@@ -992,11 +992,11 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
 05/03/2025 15:13:03 - INFO - src.model - Loaded tokenizer class PegasusTokenizerFast for model google/pegasus-large
 Traceback (most recent call last):
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 109, in <module>
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 109, in <module>
     main()
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 88, in main
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/scripts/train_on_subset.py", line 88, in main
     train_loader, val_loader, _ = get_dataloaders(
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/data_processor.py", line 281, in get_dataloaders
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/data_processor.py", line 281, in get_dataloaders
     sample_ratio=data_cfg.sample_ratio,
 AttributeError: 'types.SimpleNamespace' object has no attribute 'get'
 (mds) kestrel0:~/Documents/multi_doc_summarization$ history | grep main
@@ -1031,9 +1031,9 @@ The new embeddings will be initialized from a multivariate normal distribution t
 05/03/2025 15:18:58 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 15:18:59 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 15:18:59 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
-Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 1 Training:  29%|█████████████▏                               | 99/337 [00:33<01:19,  3.01it/s, loss=2.4623]05/03/2025 15:19:32 - INFO - src.trainer - Epoch 1 Step 100/337 - Loss: 2.4645
 Epoch 1 Training:  59%|█████████████████████████▉                  | 199/337 [01:06<00:46,  3.00it/s, loss=2.5343]05/03/2025 15:20:06 - INFO - src.trainer - Epoch 1 Step 200/337 - Loss: 2.6315
@@ -1041,11 +1041,11 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 337/337 [01:52<00:00,  2.99it/s, loss=2.2188]
 Epoch 1 Validation: 100%|████████████████████████████████████████████| 42/42 [00:05<00:00,  7.52it/s, loss=2.1340]
 05/03/2025 15:20:57 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.4997 - Val Loss: 2.1489
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 15:21:18 - INFO - src.trainer - Checkpoint saved: outputs/pegasus_subset/best_model
 05/03/2025 15:21:18 - INFO - src.trainer - New best model saved at epoch 1
-Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 2 Training:  29%|█████████████▏                               | 99/337 [00:33<01:19,  2.99it/s, loss=2.0595]05/03/2025 15:21:51 - INFO - src.trainer - Epoch 2 Step 100/337 - Loss: 2.2280
 Epoch 2 Training:  59%|█████████████████████████▉                  | 199/337 [01:07<00:47,  2.93it/s, loss=2.1420]05/03/2025 15:22:25 - INFO - src.trainer - Epoch 2 Step 200/337 - Loss: 2.0371
@@ -1066,9 +1066,9 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 15:23:40 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 15:23:41 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 15:23:41 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
-Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 1 Training:  29%|█████████████▏                               | 99/337 [00:16<00:39,  6.00it/s, loss=2.3118]05/03/2025 15:23:58 - INFO - src.trainer - Epoch 1 Step 100/337 - Loss: 2.2444
 Epoch 1 Training:  59%|█████████████████████████▉                  | 199/337 [00:33<00:23,  5.92it/s, loss=2.5176]05/03/2025 15:24:15 - INFO - src.trainer - Epoch 1 Step 200/337 - Loss: 2.5910
@@ -1076,11 +1076,11 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 337/337 [00:56<00:00,  5.93it/s, loss=1.5804]
 Epoch 1 Validation: 100%|████████████████████████████████████████████| 42/42 [00:03<00:00, 11.53it/s, loss=1.8792]
 05/03/2025 15:24:42 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.2206 - Val Loss: 2.0164
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 15:24:56 - INFO - src.trainer - Checkpoint saved: outputs/bart_subset/best_model
 05/03/2025 15:24:56 - INFO - src.trainer - New best model saved at epoch 1
-Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 2 Training:  29%|█████████████▏                               | 99/337 [00:16<00:40,  5.95it/s, loss=1.7847]05/03/2025 15:25:13 - INFO - src.trainer - Epoch 2 Step 100/337 - Loss: 1.4353
 Epoch 2 Training:  59%|█████████████████████████▉                  | 199/337 [00:33<00:23,  5.96it/s, loss=2.3485]05/03/2025 15:25:30 - INFO - src.trainer - Epoch 2 Step 200/337 - Loss: 1.9542
@@ -1101,9 +1101,9 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 15:26:13 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 15:26:13 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 15:26:13 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:77: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
-Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 1 Training:   1%|▌                                             | 4/337 [00:02<03:44,  1.48it/s, loss=3.4019]Input ids are automatically padded from 4070 to 4096 to be a multiple of `config.attention_window`: 1024
 Epoch 1 Training:   3%|█▍                                           | 11/337 [00:07<03:30,  1.55it/s, loss=3.4556]Input ids are automatically padded from 4093 to 4096 to be a multiple of `config.attention_window`: 1024
@@ -1146,7 +1146,7 @@ Epoch 1 Validation: 100%|██████████████████�
 05/03/2025 15:30:03 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.4701 - Val Loss: 1.8889
 05/03/2025 15:30:09 - INFO - src.trainer - Checkpoint saved: outputs/led_subset/best_model
 05/03/2025 15:30:09 - INFO - src.trainer - New best model saved at epoch 1
-Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+Epoch 2 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:125: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with autocast():
 Epoch 2 Training:   8%|███▋                                         | 28/337 [00:18<03:21,  1.54it/s, loss=1.7771]Input ids are automatically padded from 3443 to 4096 to be a multiple of `config.attention_window`: 1024
 Epoch 2 Training:  12%|█████▎                                       | 40/337 [00:26<03:14,  1.53it/s, loss=1.7028]Input ids are automatically padded from 2985 to 3072 to be a multiple of `config.attention_window`: 1024
@@ -1194,10 +1194,10 @@ Epoch 2 Validation: 100%|██████████████████�
   output : summaries_bart.txt
 
 05/03/2025 15:52:30 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 15:52:45 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 05/03/2025 15:52:49 - INFO - __main__ - Wrote 3 summaries to summaries_bart.txt
 
@@ -1232,10 +1232,10 @@ Epoch 2 Validation: 100%|██████████████████�
   output : summaries_bart.txt
 
 05/03/2025 16:03:32 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 16:03:32 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 05/03/2025 16:03:37 - INFO - __main__ - Wrote 3 summaries to summaries_bart.txt
 
@@ -1270,10 +1270,10 @@ Epoch 2 Validation: 100%|██████████████████�
   output : summaries_bart.txt
 
 05/03/2025 16:07:48 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 16:07:49 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 05/03/2025 16:07:53 - INFO - __main__ - Wrote 3 summaries to summaries_bart.txt
 
@@ -1308,10 +1308,10 @@ Epoch 2 Validation: 100%|██████████████████�
   output : summaries_bart.txt
 
 05/03/2025 16:16:07 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 16:16:08 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 05/03/2025 16:16:10 - INFO - __main__ - doc: Most of the Secret Service agents embroiled in a p
 , sum type: <class 'str'>, sum: S e c r e t S e r v i c e a g e n t s e m b r o i l e d i n s c a n d a l w h o w a s b u t g a v e f o r t h e w o m o n e y s a i d s u m m i t R e p p r i s t t o p a y a t l y l a u n c h u r d e z v o u s o f a c k t e l l o t i r C o l i m a b a m e s h a r s i f i o d t
@@ -1364,11 +1364,11 @@ Epoch 2 Validation: 100%|██████████████████�
   output : summaries_bart.txt
 
 05/03/2025 16:19:16 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 16:19:17 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
 05/03/2025 16:19:17 - INFO - src.utils - cleaned text: M o s t o 
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 05/03/2025 16:19:19 - INFO - __main__ - doc: Most of the Secret Service agents embroiled in a p
 , sum type: <class 'str'>, sum: S e c r e t S e r v i c e a g e n t s e m b r o i l e d i n s c a n d a l w h o w a s b u t g a v e f o r t h e w o m o n e y s a i d s u m m i t R e p p r i s t t o p a y a t l y l a u n c h u r d e z v o u s o f a c k t e l l o t i r C o l i m a b a m e s h a r s i f i o d t
@@ -1440,7 +1440,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> from src.utils import clean_text
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/utils.py", line 160
+  File "/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/utils.py", line 160
     rf"[^A-Za-z0-9\s\.\,\!\?\;\:\'\\"\-\<{DOC_SEPARATOR}\>]",
                                       ^
 SyntaxError: unexpected character after line continuation character
@@ -1464,7 +1464,7 @@ The new embeddings will be initialized from a multivariate normal distribution t
 05/03/2025 16:58:09 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 16:58:09 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 16:58:09 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
 Epoch 1 Training:  29%|█████████████▏                               | 99/337 [00:32<01:14,  3.18it/s, loss=4.2908]05/03/2025 16:58:42 - INFO - src.trainer - Epoch 1 Step 100/337 - Loss: 2.7912
 Epoch 1 Training:  59%|█████████████████████████▉                  | 199/337 [01:05<00:45,  3.01it/s, loss=5.5740]05/03/2025 16:59:15 - INFO - src.trainer - Epoch 1 Step 200/337 - Loss: 3.0529
@@ -1472,7 +1472,7 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 337/337 [01:50<00:00,  3.04it/s, loss=2.6583]
 Epoch 1 Validation: 100%|████████████████████████████████████████████| 42/42 [00:05<00:00,  7.80it/s, loss=2.3889]
 05/03/2025 17:00:05 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.9288 - Val Loss: 2.3403
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 17:00:26 - INFO - src.trainer - Checkpoint saved: outputs/pegasus_subset/best_model
 05/03/2025 17:00:26 - INFO - src.trainer - New best model saved at epoch 1
@@ -1495,7 +1495,7 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 17:02:45 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 17:02:45 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 17:02:45 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
 Epoch 1 Training:  29%|█████████████▏                               | 99/337 [00:16<00:39,  6.03it/s, loss=1.8072]05/03/2025 17:03:03 - INFO - src.trainer - Epoch 1 Step 100/337 - Loss: 1.9119
 Epoch 1 Training:  59%|█████████████████████████▉                  | 199/337 [00:33<00:23,  5.86it/s, loss=1.9624]05/03/2025 17:03:20 - INFO - src.trainer - Epoch 1 Step 200/337 - Loss: 2.9025
@@ -1503,7 +1503,7 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 337/337 [00:56<00:00,  5.91it/s, loss=2.5337]
 Epoch 1 Validation: 100%|████████████████████████████████████████████| 42/42 [00:03<00:00, 11.36it/s, loss=1.9552]
 05/03/2025 17:03:46 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.4369 - Val Loss: 2.1826
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 17:04:01 - INFO - src.trainer - Checkpoint saved: outputs/bart_subset/best_model
 05/03/2025 17:04:01 - INFO - src.trainer - New best model saved at epoch 1
@@ -1526,7 +1526,7 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 17:05:18 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 17:05:19 - INFO - src.data_processor - Sampled 84/84 examples (1.5%)
 05/03/2025 17:05:19 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
 Epoch 1 Training:   0%|                                                                   | 0/337 [00:00<?, ?it/s]Input ids are automatically padded from 4054 to 4096 to be a multiple of `config.attention_window`: 1024
 Epoch 1 Training:   1%|▎                                             | 2/337 [00:01<04:05,  1.36it/s, loss=3.5051]Input ids are automatically padded from 2978 to 3072 to be a multiple of `config.attention_window`: 1024
@@ -1953,11 +1953,11 @@ Epoch 2 Validation: 100%|██████████████████�
   output : summaries_bart.txt
 
 05/03/2025 17:11:11 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 17:11:26 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
 05/03/2025 17:11:27 - INFO - src.utils - cleaned text: Most of th
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 05/03/2025 17:11:28 - INFO - __main__ - doc: Most of the Secret Service agents embroiled in a p
 , sum type: <class 'str'>, sum: Most of the Secret Service agents embroiled in a prostitution scandal brought women back to their Colombia hotel rooms before President Obama arrived in town for an international summit, Rep. Pete King said Saturday. King says the raunchy rendezvous involved 11 agents and went sour when an agent refused to pay a prostitute. "The agent said, 'I do not owe you anything,'
@@ -2015,12 +2015,12 @@ Epoch 2 Validation: 100%|██████████████████�
   checkpoint : outputs/bart_subset/best_model
 
 05/03/2025 18:15:35 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 18:15:36 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
 05/03/2025 18:15:37 - INFO - src.evaluate - Sampled 20 examples for evaluation
 Eval generation:   0%|                                                                     | 0/20 [00:00<?, ?it/s]05/03/2025 18:15:37 - INFO - src.utils - cleaned text: Most of th
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Eval generation:   5%|███                                                          | 1/20 [00:00<00:14,  1.31it/s]05/03/2025 18:15:38 - INFO - src.utils - cleaned text: A voluntee
 Eval generation:  10%|██████                                                       | 2/20 [00:01<00:16,  1.09it/s]05/03/2025 18:15:39 - INFO - src.utils - cleaned text: Perhaps Go
@@ -2165,7 +2165,7 @@ The new embeddings will be initialized from a multivariate normal distribution t
 05/03/2025 21:29:17 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 21:29:17 - INFO - src.data_processor - Sampled 224/224 examples (4.0%)
 05/03/2025 21:29:17 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
 Epoch 1 Training:   1%|▌                                            | 11/899 [00:03<04:51,  3.05it/s, loss=2.8537]Error during conversion: ChunkedEncodingError(ProtocolError('Response ended prematurely'))
 Epoch 1 Training:  11%|████▉                                        | 99/899 [00:32<04:24,  3.03it/s, loss=2.6558]05/03/2025 21:29:51 - INFO - src.trainer - Epoch 1 Step 100/899 - Loss: 3.0621
@@ -2179,7 +2179,7 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 899/899 [05:00<00:00,  2.99it/s, loss=2.4762]
 Epoch 1 Validation: 100%|██████████████████████████████████████████| 112/112 [00:15<00:00,  7.20it/s, loss=2.1843]
 05/03/2025 21:34:34 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.6738 - Val Loss: 2.2226
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 21:34:55 - INFO - src.trainer - Checkpoint saved: outputs/pegasus_subset/best_model
 05/03/2025 21:34:55 - INFO - src.trainer - New best model saved at epoch 1
@@ -2207,7 +2207,7 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 21:40:36 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 21:40:36 - INFO - src.data_processor - Sampled 224/224 examples (4.0%)
 05/03/2025 21:40:36 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
 Epoch 1 Training:  11%|████▉                                        | 99/899 [00:16<02:13,  6.01it/s, loss=2.1017]05/03/2025 21:40:53 - INFO - src.trainer - Epoch 1 Step 100/899 - Loss: 2.3628
 Epoch 1 Training:  22%|█████████▋                                  | 199/899 [00:33<01:59,  5.86it/s, loss=2.1842]05/03/2025 21:41:10 - INFO - src.trainer - Epoch 1 Step 200/899 - Loss: 1.6837
@@ -2220,7 +2220,7 @@ Epoch 1 Training:  89%|███████████████████
 Epoch 1 Training: 100%|████████████████████████████████████████████| 899/899 [02:33<00:00,  5.87it/s, loss=2.6367]
 Epoch 1 Validation: 100%|██████████████████████████████████████████| 112/112 [00:09<00:00, 11.81it/s, loss=2.1838]
 05/03/2025 21:43:19 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.3425 - Val Loss: 2.0971
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/03/2025 21:43:34 - INFO - src.trainer - Checkpoint saved: outputs/bart_subset/best_model
 05/03/2025 21:43:34 - INFO - src.trainer - New best model saved at epoch 1
@@ -2248,7 +2248,7 @@ Epoch 2 Validation: 100%|██████████████████�
 05/03/2025 21:46:33 - INFO - src.data_processor - Loading 'validation' split of Multi-News
 05/03/2025 21:46:34 - INFO - src.data_processor - Sampled 224/224 examples (4.0%)
 05/03/2025 21:46:34 - INFO - src.data_processor - Loading 'test' split of Multi-News
-/s/chopin/l/grad/c837213756/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+/s/chopin/l/grad/std_id/Documents/multi_doc_summarization/src/trainer.py:79: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   self.scaler = GradScaler() if self.use_amp else None
 Epoch 1 Training:   0%|                                                                   | 0/899 [00:00<?, ?it/s]Input ids are automatically padded from 1842 to 2048 to be a multiple of `config.attention_window`: 1024
 Epoch 1 Training:   0%|                                              | 1/899 [00:00<08:56,  1.67it/s, loss=3.4194]Input ids are automatically padded from 2951 to 3072 to be a multiple of `config.attention_window`: 1024
@@ -3240,11 +3240,11 @@ Epoch 2 Validation: 100%|██████████████████�
   checkpoint : outputs/bart_subset/best_model
 
 05/03/2025 22:28:19 - INFO - src.model - Loading model and tokenizer: outputs/bart_subset/best_model on cuda
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/models/bart/configuration_bart.py:176: UserWarning: Please make sure the config includes `forced_bos_token_id=0` in future versions. The config can simply be saved and uploaded again to be fixed.
   warnings.warn(
 05/03/2025 22:28:34 - INFO - src.model - Loaded tokenizer class BartTokenizerFast for model outputs/bart_subset/best_model
 05/03/2025 22:28:35 - INFO - src.evaluate - Sampled 20 examples for evaluation
-Eval generation:   0%|                                                                     | 0/20 [00:00<?, ?it/s]/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+Eval generation:   0%|                                                                     | 0/20 [00:00<?, ?it/s]/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1667: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed in v5. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
   warnings.warn(
 Eval generation: 100%|████████████████████████████████████████████████████████████| 20/20 [00:19<00:00,  1.04it/s]
 05/03/2025 22:28:55 - INFO - src.evaluate - Computing ROUGE...

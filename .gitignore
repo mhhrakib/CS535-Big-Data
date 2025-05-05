@@ -1,7 +1,25 @@
-/outputs/
 __pycache__/
 
 *.py[cod]
 *$py.class
 
 .ipynb_checkpoints/
+
+# Ignore all contents within the outputs directory initially
+outputs/*
+
+# Un-ignore the path down to the best_model directories
+# The first '*' matches bart, pegasus, led, etc.
+!outputs/plots/
+!outputs/*/
+!outputs/*/best_model/
+
+# Ignore everything *inside* the best_model directories by default
+outputs/*/best_model/*
+
+# --- Un-ignore the specific files ---
+!outputs/*/best_model/config.json
+!outputs/*/best_model/generation_config.json
+!outputs/*/best_model/eval_metrics.csv
+!outputs/*/best_model/eval_records.json
+

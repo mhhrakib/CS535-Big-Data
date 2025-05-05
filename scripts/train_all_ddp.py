@@ -104,7 +104,7 @@ def main():
         trainer.train()
 
         if is_main_process():
-            logger.info(f"✅ Finished {config.model.name}\n")
+            logger.info(f"Finished {config.model.name}\n")
 
     # teardown
     cleanup_ddp()

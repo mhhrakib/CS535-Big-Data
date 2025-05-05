@@ -69,7 +69,7 @@ Epoch 1 Training: 100%|███████████████████
 Epoch 1 Training: 100%|██████████████████████████████████████████| 1406/1406 [13:04<00:00,  1.79it/s, loss=2.9276]
 Epoch 1 Validation: 100%|██████████████████████████████████████████| 176/176 [00:30<00:00,  5.86it/s, loss=1.9943]
 05/04/2025 03:43:01 - INFO - src.trainer - Epoch 1/2 - Train Loss: 2.1819 - Val Loss: 2.0459
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/04/2025 03:43:16 - INFO - src.trainer - Checkpoint saved: outputs/bart/best_model
 05/04/2025 03:43:16 - INFO - src.trainer - New best model saved at epoch 1
@@ -188,7 +188,7 @@ Epoch 1 Training: 100%|███████████████████
 Epoch 1 Training: 100%|██████████████████████████████████████████| 2811/2811 [35:38<00:00,  1.31it/s, loss=3.2365]
 Epoch 1 Validation: 100%|██████████████████████████████████████████| 352/352 [00:48<00:00,  7.33it/s, loss=1.9135]
 05/04/2025 04:33:50 - INFO - src.trainer - Epoch 1/2 - Train Loss: nan - Val Loss: 2.2000
-/s/chopin/l/grad/c837213756/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
+/s/chopin/l/grad/std_id/.local/lib/python3.10/site-packages/transformers/modeling_utils.py:3339: UserWarning: Moving the following attributes in the config to the generation config: {'max_length': 256, 'num_beams': 8, 'length_penalty': 0.8}. You are seeing this warning because you've set generation parameters in the model config, as opposed to in the generation config.
   warnings.warn(
 05/04/2025 04:34:11 - INFO - src.trainer - Checkpoint saved: outputs/pegasus/best_model
 05/04/2025 04:34:11 - INFO - src.trainer - New best model saved at epoch 1

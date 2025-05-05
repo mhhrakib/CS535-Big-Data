@@ -127,7 +127,7 @@ PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$PROJECT_ROOT"
 # ──────────────────────────────────────────────────────────────────────────────
 
-NUM_SAMPLES=100   # change to whatever subset size you want
+NUM_SAMPLES=2500
 SPLIT="test"
 
 # Map each model to its best_model checkpoint

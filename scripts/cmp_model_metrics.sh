@@ -8,14 +8,14 @@ cd "$PROJECT_ROOT"
 # ──────────────────────────────────────────────────────────────────────────────
 
 # How many samples to evaluate & which split
-NUM_SAMPLES=20
+NUM_SAMPLES=2500
 SPLIT="test"
 
 # Map model names → their checkpoint subdirs
 declare -A MODELS=(
   [pegasus]="pegasus_subset/best_model"
-  [bart]="bart_subset/best_model"
-  [led]="led_subset/best_model"
+  [bart]="bart/best_model"
+  [led]="led/best_model"
 )
 
 for name in "${!MODELS[@]}"; do

@@ -1,146 +1,70 @@
 import argparse
-import os
 import logging
-import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-from datasets import load_dataset
-import nltk
-from nltk.tokenize import sent_tokenize
 import random
-from tqdm import tqdm
-from src.utils import clean_text
+import torch
+from datasets import load_dataset
 
-# Set up logging
+from src.main import load_config
+from src.model import load_model_and_tokenizer
+from src.utils import generate_summary
+
 logging.basicConfig(
-    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+    format="%(asctime)s - %(levelname)s - %(message)s",
     datefmt="%m/%d/%Y %H:%M:%S",
-    level=logging.INFO,
+    level=logging.INFO
 )
 logger = logging.getLogger(__name__)
 
-# Download NLTK resources
-nltk.download('punkt', quiet=True)
+def main():
+    p = argparse.ArgumentParser("Generate summaries")
+    p.add_argument("--config",      type=str, required=True,
+                   help="Path to YAML config")
+    p.add_argument("--model_path",  type=str, required=True,
+                   help="Trained model directory")
+    p.add_argument("--split",       type=str, default="test")
+    p.add_argument("--num_samples", type=int, default=3)
+    p.add_argument("--output_file", type=str, default="summaries.txt")
+    p.add_argument("--seed",        type=int, default=42)
+    args = p.parse_args()
 
+    # Load config
+    config = load_config(args.config)
 
-def load_model(model_path):
-    """Loads model and tokenizer from path"""
-    logger.info(f"Loading model and tokenizer from {model_path}")
+    # Set seed
+    random.seed(args.seed)
+    torch.manual_seed(args.seed)
 
-    # Load tokenizer and model
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
-    model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
-
-    # Move model to device
+    # Load model & tokenizer
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = model.to(device)
-    model.eval()
-
-    return model, tokenizer, device
-
-
-def generate_summary(model, tokenizer, document, max_input_length=1024, max_output_length=256, device="cpu"):
-    """Generates a summary for the given document"""
-    # Clean and prepare document
-    document = clean_text(document)
-
-    # Tokenize input
-    inputs = tokenizer(
-        document,
-        max_length=max_input_length,
-        padding="max_length",
-        truncation=True,
-        return_tensors="pt"
+    model, tokenizer = load_model_and_tokenizer(
+        args.model_path, device, ddp=False, local_rank=0
     )
 
-    # Move inputs to device
-    inputs = {k: v.to(device) for k, v in inputs.items()}
-
-    # Generate summary
-    with torch.no_grad():
-        output_ids = model.generate(
-            inputs["input_ids"],
-            attention_mask=inputs["attention_mask"],
-            max_length=max_output_length,
-            num_beams=4,
-            early_stopping=True
-        )
-
-    # Decode summary
-    summary = tokenizer.decode(output_ids[0], skip_special_tokens=True)
-
-    return summary
-
-
-def main():
-    # Parse arguments
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model_path", type=str, required=True, help="Path to the trained model")
-    parser.add_argument("--dataset", type=str, default="alexfabbri/multi_news", help="Dataset name")
-    parser.add_argument("--split", type=str, default="test", help="Dataset split")
-    parser.add_argument("--num_samples", type=int, default=5, help="Number of examples to generate")
-    parser.add_argument("--output_file", type=str, default="summaries.txt", help="Output file path")
-    parser.add_argument("--max_input_length", type=int, default=1024, help="Maximum input length")
-    parser.add_argument("--max_output_length", type=int, default=128, help="Maximum output length")
-    parser.add_argument("--seed", type=int, default=43, help="Random seed")
-    args = parser.parse_args()
-
-    # Set random seed
-    random.seed(args.seed)
-
-    # Load model and tokenizer
-    model, tokenizer, device = load_model(args.model_path)
-
     # Load dataset
-    logger.info(f"Loading {args.split} split from {args.dataset}")
-    dataset = load_dataset(args.dataset, split=args.split)
+    ds = load_dataset(config.data.dataset_name, split=args.split)
+    total = len(ds)
+    indices = (random.sample(range(total), args.num_samples)
+               if args.num_samples < total else list(range(total)))
 
-    # Select samples
-    if args.num_samples >= len(dataset):
-        indices = list(range(len(dataset)))
-    else:
-        indices = random.sample(range(len(dataset)), args.num_samples)
+    # Generate & write
+    with open(args.output_file, 'w', encoding='utf-8') as fout:
+        for idx in indices:
+            doc = ds[idx]["document"]
+            ref = ds[idx]["summary"]
 
-    # Generate summaries
-    results = []
-    for idx in tqdm(indices, desc="Generating summaries"):
-        example = dataset[idx]
+            summ = generate_summary(model, tokenizer, doc, config, device)
 
-        # Generate summary
-        generated_summary = generate_summary(
-            model=model,
-            tokenizer=tokenizer,
-            document=example["document"],
-            max_input_length=args.max_input_length,
-            max_output_length=args.max_output_length,
-            device=device
-        )
+            logger.info(f"doc: {doc[:50]}\n, sum type: {type(summ)}, sum: {summ}")
 
-        # logger.info(f"ref sum len: {len(example["summary"])}, gen sum len: {len(generated_summary)}")
+            doc_snip = doc.replace("\n", " ")[:800]
 
-        # Store results
-        results.append({
-            "index": idx,
-            "document": example["document"],
-            "reference_summary": example["summary"],
-            "generated_summary": generated_summary
-        })
+            fout.write(f"Example {idx}\n")
+            fout.write(f"DOCUMENT:\n{doc_snip}...\n\n")
+            fout.write(f"REFERENCE SUMMARY (chars: {len(ref)}):\n{ref}\n\n")
+            fout.write(f"GENERATED SUMMARY (chars: {len(summ)}):\n{summ}\n\n")
+            fout.write(f"{'=' * 80}\n\n")
 
-    # Write results to file
-    with open(args.output_file, 'w', encoding='utf-8') as f:
-        for i, result in enumerate(results):
-            f.write(f"Example {i + 1} (Dataset index: {result['index']})\n")
-            f.write("=" * 80 + "\n")
-            f.write("DOCUMENT:\n")
-            f.write(result['document'][:1000] + "...\n\n")
-            f.write("REFERENCE SUMMARY:\n")
-            f.write(result['reference_summary'] + "\n\n")
-            f.write("GENERATED SUMMARY:\n")
-            f.write(result['generated_summary'] + "\n\n")
-            f.write("=" * 80 + "\n\n")
-            f.write("ref sum len: " + str(len(result['reference_summary'])) + " gen sum len: " + str(len(result['generated_summary'])) + "\n\n")
-
-    logger.info(f"Generated summaries saved to {args.output_file}")
-
+    logger.info(f"Wrote {len(indices)} summaries to {args.output_file}")
 
 if __name__ == "__main__":
     main()

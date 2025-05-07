@@ -64,10 +64,10 @@ Per‑example records (`eval_records.json`) and aggregate CSV
 
 ---
 
-### Web UI
+## Web UI
 We serve a FastAPI + Jinja2 frontend with Uvicorn.
 
-#### Dependencies
+### Dependencies
 
 ```bash
 # In the same `mds` conda env
@@ -76,7 +76,7 @@ conda install -c conda-forge fastapi uvicorn jinja2 python-multipart -y
 # pip install fastapi uvicorn jinja2 python-multipart
 ````
 
-#### Running
+### Running
 
 ```bash
 # From project root, launch FastAPI + Jinja2 server

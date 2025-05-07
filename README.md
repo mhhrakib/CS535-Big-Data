@@ -1,8 +1,8 @@
 
-# Scalable Multi‑Document Summarization using Distributed Deep Learning
+# Scalable Multi‑Document Text Summarization using Distributed Deep Learning
 
 End‑to‑end pipeline for abstractive summaries of clusters of news articles, built for
-CS 535 “Big Data” (Spring 2025).  
+CS-535 “Big Data” (Spring 2025).  
 We fine‑tune **PEGASUS‑Large**, **BART‑Large‑CNN**, and **LED‑Base‑16384** on the
 [Multi‑News](https://huggingface.co/datasets/alexfabbri/multi_news) corpus, using
 PyTorch DDP for multi‑GPU/‑node training.
@@ -64,6 +64,31 @@ Per‑example records (`eval_records.json`) and aggregate CSV
 
 ---
 
+### Web UI
+We serve a FastAPI + Jinja2 frontend with Uvicorn.
+
+#### Dependencies
+
+```bash
+# In the same `mds` conda env
+conda install -c conda-forge fastapi uvicorn jinja2 python-multipart -y
+# or via pip:
+# pip install fastapi uvicorn jinja2 python-multipart
+````
+
+#### Running
+
+```bash
+# From project root, launch FastAPI + Jinja2 server
+uvicorn src.api.main:app \
+  --reload \
+  --host 0.0.0.0 \
+  --port 8000
+```
+
+Open your browser at [http://localhost:8000](http://localhost:8000) to access the UI.
+
+---
 ## Key Features
 
 * **Pre‑processing:** HTML strip, Unicode fix, contraction expansion, exact + fuzzy dedup.
